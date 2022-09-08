@@ -1,5 +1,5 @@
 # BugGuardian.MVC
-![CI](https://github.com/n3wt0n/BugGuardian.MVC/workflows/CI/badge.svg)
+[![CI](https://github.com/uerosuo/BugGuardian.MVC/actions/workflows/main.yml/badge.svg)]
 [![Release](https://img.shields.io/github/release/n3wt0n/BugGuardian.MVC.svg)](https://github.com/n3wt0n/BugGuardian.MVC/releases/latest)
 [![License](https://img.shields.io/github/license/n3wt0n/BugGuardian.MVC.svg)](https://github.com/n3wt0n/BugGuardian.MVC/blob/master/LICENSE)
 
