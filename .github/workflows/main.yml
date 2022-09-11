@@ -34,4 +34,14 @@ jobs:
     
     - name: Build the Solution
       run: msbuild BugGuardian.MVC.sln /p:Configuration=Release
+      
+    - name: Publish
+      run: dotnet publish SimpleFeedReader/SimpleFeedReader.csproj -c Release -o website
+      
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2.2.2
+      with:
+        name: website
+        path: SimpleFeedReader/website/**
+        if-no-files-found: error  
     
